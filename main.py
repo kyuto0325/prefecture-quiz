@@ -53,105 +53,116 @@ while True:
         break
     else:
         print("1から3を入力してください。")
-# =========================
-# 難易度を選択
-# =========================
-
-while True:
-    print("\n難易度を選んでください")
-    print("1. ⭐ はじめて")
-    print("2. ⭐⭐ ものしり")
-    print("3. ⭐⭐⭐ ご当地博士")
-    print("4. すべての難易度")
-
-    difficulty_choice = input("番号を入力してください: ")
-
-    if difficulty_choice == "1":
-        selected_difficulty = 1
-        break
-    elif difficulty_choice == "2":
-        selected_difficulty = 2
-        break
-    elif difficulty_choice == "3":
-        selected_difficulty = 3
-        break
-    elif difficulty_choice == "4":
-        selected_difficulty = 0
-        break
-    else:
-        print("1から4の番号を入力してください。")
 
 # =========================
-# カテゴリを選択
+# 難易度・カテゴリを選択
 # =========================
 
 while True:
-    print("\nカテゴリを選んでください")
-    print("1. すべて")
-    print("2. 地理・自然")
-    print("3. 歴史")
-    print("4. 観光・名所")
-    print("5. 食・特産品")
-    print("6. 文化・伝統")
-    print("7. 産業・暮らし")
 
-    category_choice = input("番号を入力してください: ")
+    # =========================
+    # 難易度を選択
+    # =========================
 
-    if category_choice == "1":
-          selected_category = "すべて"
-          break
-    elif category_choice == "2":
-          selected_category = "地理・自然"
-          break
-    elif category_choice == "3":
-        selected_category = "歴史"
-        break
-    elif category_choice == "4":
-          selected_category = "観光・名所"
-          break
-    elif category_choice == "5":
-          selected_category = "食・特産品"
-          break
-    elif category_choice == "6":
-          selected_category = "文化・伝統"
-          break
-    elif category_choice == "7":
-          selected_category = "産業・暮らし"
-          break
+    while True:
+        print("\n難易度を選んでください")
+        print("1. ⭐ はじめて")
+        print("2. ⭐⭐ ものしり")
+        print("3. ⭐⭐⭐ ご当地博士")
+        print("4. すべての難易度")
+
+        difficulty_choice = input("番号を入力してください: ")
+
+        if difficulty_choice == "1":
+            selected_difficulty = 1
+            break
+        elif difficulty_choice == "2":
+            selected_difficulty = 2
+            break
+        elif difficulty_choice == "3":
+            selected_difficulty = 3
+            break
+        elif difficulty_choice == "4":
+            selected_difficulty = 0
+            break
+        else:
+            print("1から4の番号を入力してください。")
+
+
+    # =========================
+    # カテゴリを選択
+    # =========================
+
+    while True:
+        print("\nカテゴリを選んでください")
+        print("1. すべて")
+        print("2. 地理・自然")
+        print("3. 歴史")
+        print("4. 観光・名所")
+        print("5. 食・特産品")
+        print("6. 文化・伝統")
+        print("7. 産業・暮らし")
+
+        category_choice = input("番号を入力してください: ")
+
+        if category_choice == "1":
+            selected_category = "すべて"
+            break
+        elif category_choice == "2":
+            selected_category = "地理・自然"
+            break
+        elif category_choice == "3":
+            selected_category = "歴史"
+            break
+        elif category_choice == "4":
+            selected_category = "観光・名所"
+            break
+        elif category_choice == "5":
+            selected_category = "食・特産品"
+            break
+        elif category_choice == "6":
+            selected_category = "文化・伝統"
+            break
+        elif category_choice == "7":
+            selected_category = "産業・暮らし"
+            break
+        else:
+            print("1から7の番号を入力してください。")
+
+
+    # =========================
+    # 難易度で問題を絞り込む
+    # =========================
+
+    if selected_difficulty == 0:
+        filtered_questions = questions
     else:
-          print("1から7の番号を入力してください。")
-
-# =========================
-# 難易度で問題を絞り込む
-# =========================
-
-if selected_difficulty == 0:
-    filtered_questions = questions
-else:
-    filtered_questions = [
-        question for question in questions
-        if question["difficulty"] == selected_difficulty
-    ]
+        filtered_questions = [
+            question for question in questions
+            if question["difficulty"] == selected_difficulty
+        ]
 
 
-# =========================
-# カテゴリで問題を絞り込む
-# =========================
+    # =========================
+    # カテゴリで問題を絞り込む
+    # =========================
 
-if selected_category != "すべて":
-    filtered_questions = [
-        question for question in filtered_questions
-        if question["category"] == selected_category
-    ]
+    if selected_category != "すべて":
+        filtered_questions = [
+            question for question in filtered_questions
+            if question["category"] == selected_category
+        ]
 
-# =========================
-# 問題があるか確認
-# =========================
 
-if len(filtered_questions) == 0:
-    print("\n選択した条件に当てはまる問題がありません。")
-    print("別の難易度やカテゴリを選んでください。")
-    exit()
+    # =========================
+    # 問題があるか確認
+    # =========================
+
+    if len(filtered_questions) == 0:
+        print("\n選択した条件に当てはまる問題がありません。")
+        print("難易度とカテゴリを選び直してください。")
+    else:
+        break
 # =========================
 # 出題数を選択
 # =========================
