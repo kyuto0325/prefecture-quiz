@@ -31,6 +31,12 @@ from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
 
 # =========================
+# 京都府の問題データ
+# =========================
+
+from questions.kyoto import kyoto_questions
+
+# =========================
 # 都道府県を選択
 # =========================
 
@@ -39,6 +45,7 @@ while True:
     print("1. 奈良県")
     print("2. 大阪府")
     print("3. 兵庫県")
+    print("4. 京都府")
 
     prefecture_choice = input("番号を入力してください: ")
 
@@ -51,8 +58,11 @@ while True:
     elif prefecture_choice == "3":
         questions = hyogo_questions
         break
+    elif prefecture_choice == "4":
+        questions = kyoto_questions
+        break
     else:
-        print("1から3を入力してください。")
+        print("1から4を入力してください。")
 
 # =========================
 # 難易度・カテゴリを選択
