@@ -37,6 +37,11 @@ from questions.hyogo import hyogo_questions
 from questions.kyoto import kyoto_questions
 
 # =========================
+# 滋賀県の問題データ
+# =========================
+from questions.shiga import shiga_questions
+
+# =========================
 # 都道府県を選択
 # =========================
 
@@ -46,7 +51,7 @@ while True:
     print("2. 大阪府")
     print("3. 兵庫県")
     print("4. 京都府")
-
+    print("5. 滋賀県")
     prefecture_choice = input("番号を入力してください: ")
 
     if prefecture_choice == "1":
@@ -61,8 +66,11 @@ while True:
     elif prefecture_choice == "4":
         questions = kyoto_questions
         break
+    elif prefecture_choice == "5":
+        questions = shiga_questions
+        break
     else:
-        print("1から4を入力してください。")
+        print("1から5を入力してください。")
 
 # =========================
 # 難易度・カテゴリを選択
