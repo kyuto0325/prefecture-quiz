@@ -42,6 +42,16 @@ from questions.kyoto import kyoto_questions
 from questions.shiga import shiga_questions
 
 # =========================
+# 和歌山県の問題データ
+# =========================
+from questions.wakayama import wakayama_questions
+
+# =========================
+# 三重県の問題データ
+# =========================
+from questions.mie import mie_questions
+
+# =========================
 # 都道府県を選択
 # =========================
 
@@ -52,6 +62,8 @@ while True:
     print("3. 兵庫県")
     print("4. 京都府")
     print("5. 滋賀県")
+    print("6. 和歌山県")
+    print("7. 三重県")
     prefecture_choice = input("番号を入力してください: ")
 
     if prefecture_choice == "1":
@@ -69,8 +81,14 @@ while True:
     elif prefecture_choice == "5":
         questions = shiga_questions
         break
+    elif prefecture_choice == "6":
+        questions = wakayama_questions
+        break
+    elif prefecture_choice == "7":
+        questions = mie_questions
+        break
     else:
-        print("1から5を入力してください。")
+        print("1から7を入力してください。")
 
 # =========================
 # 難易度・カテゴリを選択
