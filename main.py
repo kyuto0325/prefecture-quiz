@@ -285,8 +285,36 @@ elif game_mode == "region":
     # 地方制覇の出題設定
     # =========================
 
-    quiz_count = 30
-    selected_questions = random.sample(questions, quiz_count)
+quiz_count = 30
+
+selected_questions = []
+
+# 各府県から最低2問ずつ出題
+selected_questions += random.sample(nara_questions, 2)
+selected_questions += random.sample(osaka_questions, 2)
+selected_questions += random.sample(hyogo_questions, 2)
+selected_questions += random.sample(kyoto_questions, 2)
+selected_questions += random.sample(shiga_questions, 2)
+selected_questions += random.sample(wakayama_questions, 2)
+selected_questions += random.sample(mie_questions, 2)
+
+# 残りの問題数を計算
+remaining_count = quiz_count - len(selected_questions)
+
+# すでに選ばれた問題を除外
+remaining_questions = [
+    question for question in kinki_questions
+    if question not in selected_questions
+]
+
+# 残りを近畿全体からランダムに選択
+selected_questions += random.sample(
+    remaining_questions,
+    remaining_count
+)
+
+# 出題順をランダムにする
+random.shuffle(selected_questions)
      
 elif game_mode == "japan":
     print("\n日本一周制覇の旅は現在開発中です！")
@@ -330,7 +358,7 @@ for i, question in enumerate(selected_questions, 1):
         print("不正解です。")
         print(f"正解は「{question['answer']}」です。")
 
-
+    print(f"💡 解説：{question['explanation']}")
 # =========================
 # 結果発表
 # =========================
