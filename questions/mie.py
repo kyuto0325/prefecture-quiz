@@ -14,7 +14,8 @@ mie_questions = [
         "choices": ["津市", "四日市市", "伊勢市", "松阪市"],
         "answer": "津市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "三重県の県庁所在地は津市です。伊勢湾に面し、県の行政の中心となっています。"
     },
     {
         "prefecture": "三重県",
@@ -22,7 +23,8 @@ mie_questions = [
         "choices": ["伊勢神宮", "春日大社", "出雲大社", "伏見稲荷大社"],
         "answer": "伊勢神宮",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "伊勢神宮は三重県伊勢市にある神社で、日本を代表する神社の一つです。内宮では天照大御神、外宮では豊受大御神をお祀りしています。"
     },
     {
         "prefecture": "三重県",
@@ -30,7 +32,8 @@ mie_questions = [
         "choices": ["伊賀忍者", "甲賀忍者", "風魔忍者", "戸隠忍者"],
         "answer": "伊賀忍者",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "伊賀地方は忍者の里として有名です。伊賀忍者は滋賀県の甲賀忍者と並び、日本を代表する忍者として知られています。"
     },
     {
         "prefecture": "三重県",
@@ -38,7 +41,8 @@ mie_questions = [
         "choices": ["鳥羽水族館", "海遊館", "名古屋港水族館", "京都水族館"],
         "answer": "鳥羽水族館",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "鳥羽水族館は三重県鳥羽市にある水族館です。ジュゴンなど、さまざまな海の生き物を見ることができます。"
     },
     {
         "prefecture": "三重県",
@@ -46,7 +50,8 @@ mie_questions = [
         "choices": ["ナガシマスパーランド", "ひらかたパーク", "鈴鹿サーキット", "志摩スペイン村"],
         "answer": "ナガシマスパーランド",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "ナガシマスパーランドは桑名市にある大型遊園地です。ジェットコースターなど多くのアトラクションがあります。"
     },
     {
         "prefecture": "三重県",
@@ -54,7 +59,8 @@ mie_questions = [
         "choices": ["おかげ横丁", "黒壁スクエア", "ならまち", "新世界"],
         "answer": "おかげ横丁",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "おかげ横丁は伊勢神宮内宮の近くにある観光地です。昔の町並みをイメージした通りに、飲食店や土産物店が並んでいます。"
     },
     {
         "prefecture": "三重県",
@@ -62,7 +68,8 @@ mie_questions = [
         "choices": ["松阪牛", "近江牛", "神戸牛", "米沢牛"],
         "answer": "松阪牛",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "松阪牛は三重県を代表するブランド牛です。松阪市周辺で育てられ、きめ細かな肉質で知られています。"
     },
     {
         "prefecture": "三重県",
@@ -70,7 +77,8 @@ mie_questions = [
         "choices": ["伊勢うどん", "讃岐うどん", "稲庭うどん", "きしめん"],
         "answer": "伊勢うどん",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "伊勢うどんは太くてやわらかい麺が特徴です。濃い色のたれを少量からめて食べるのが一般的です。"
     },
     {
         "prefecture": "三重県",
@@ -78,7 +86,8 @@ mie_questions = [
         "choices": ["赤福", "八ツ橋", "ういろう", "信玄餅"],
         "answer": "赤福",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "赤福は餅をこしあんで包んだ伊勢名物の和菓子です。伊勢参りのお土産として長く親しまれてきました。"
     },
     {
         "prefecture": "三重県",
@@ -86,7 +95,8 @@ mie_questions = [
         "choices": ["真珠", "ダイヤモンド", "ルビー", "サファイア"],
         "answer": "真珠",
         "category": "産業・暮らし",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "鳥羽・志摩地方では真珠の養殖が盛んです。波が比較的穏やかな入り江が多く、真珠養殖に適した環境があります。"
     },
     {
         "prefecture": "三重県",
@@ -94,7 +104,8 @@ mie_questions = [
         "choices": ["F1日本グランプリ", "ル・マン24時間レース", "インディ500", "モナコラリー"],
         "answer": "F1日本グランプリ",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "鈴鹿サーキットではF1日本グランプリが開催されています。世界トップクラスのドライバーが参加する国際的な自動車レースです。"
     },
     {
         "prefecture": "三重県",
@@ -102,9 +113,9 @@ mie_questions = [
         "choices": ["熊野古道", "東海道", "中山道", "奥州街道"],
         "answer": "熊野古道",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "熊野古道は熊野三山へ向かう古い参詣道です。三重県を通る伊勢路などがあり、世界遺産の一部になっています。"
     },
-
 
     # =========================
     # Lv2 ⭐⭐ ものしり
@@ -116,7 +127,8 @@ mie_questions = [
         "choices": ["伊勢湾", "大阪湾", "駿河湾", "若狭湾"],
         "answer": "伊勢湾",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "伊勢湾は三重県と愛知県に囲まれた湾です。三重県北部や中部の沿岸地域が面しています。"
     },
     {
         "prefecture": "三重県",
@@ -124,7 +136,8 @@ mie_questions = [
         "choices": ["英虞湾", "伊勢湾", "東京湾", "三河湾"],
         "answer": "英虞湾",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "英虞湾は志摩市にある入り組んだ形の湾です。波が穏やかで、真珠養殖が盛んなことで知られています。"
     },
     {
         "prefecture": "三重県",
@@ -132,7 +145,8 @@ mie_questions = [
         "choices": ["伊勢国", "近江国", "大和国", "紀伊国"],
         "answer": "伊勢国",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "現在の三重県中北部の多くは、昔は伊勢国と呼ばれていました。伊勢神宮があることでもよく知られています。"
     },
     {
         "prefecture": "三重県",
@@ -140,7 +154,8 @@ mie_questions = [
         "choices": ["お伊勢参り", "熊野詣", "お遍路", "富士講"],
         "answer": "お伊勢参り",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "江戸時代には多くの人が伊勢神宮を目指して旅をしました。これを「お伊勢参り」といい、全国から大勢の参拝者が訪れました。"
     },
     {
         "prefecture": "三重県",
@@ -148,7 +163,8 @@ mie_questions = [
         "choices": ["服部半蔵", "真田幸村", "明智光秀", "石田三成"],
         "answer": "服部半蔵",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "服部半蔵は伊賀とゆかりが深く、徳川家康に仕えた人物として知られています。忍者の代表的な人物としても有名です。"
     },
     {
         "prefecture": "三重県",
@@ -156,7 +172,8 @@ mie_questions = [
         "choices": ["二見興玉神社", "伊勢神宮", "椿大神社", "多度大社"],
         "answer": "二見興玉神社",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "二見興玉神社は伊勢市二見町にある神社です。海に並ぶ二つの岩「夫婦岩」でよく知られています。"
     },
     {
         "prefecture": "三重県",
@@ -164,7 +181,8 @@ mie_questions = [
         "choices": ["伊賀上野城", "津城", "松阪城", "亀山城"],
         "answer": "伊賀上野城",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "伊賀上野城は伊賀市にある城です。白い天守や高い石垣で知られ、伊賀を代表する観光名所の一つです。"
     },
     {
         "prefecture": "三重県",
@@ -172,7 +190,8 @@ mie_questions = [
         "choices": ["伊勢志摩国立公園", "吉野熊野国立公園", "瀬戸内海国立公園", "富士箱根伊豆国立公園"],
         "answer": "伊勢志摩国立公園",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "伊勢志摩国立公園は伊勢・鳥羽・志摩などに広がる国立公園です。複雑な海岸線や美しい海の景色が特徴です。"
     },
     {
         "prefecture": "三重県",
@@ -180,7 +199,8 @@ mie_questions = [
         "choices": ["鬼ヶ城", "橋杭岩", "三段壁", "東尋坊"],
         "answer": "鬼ヶ城",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "鬼ヶ城は熊野市の海岸にある景勝地です。波や風によって削られた岩が独特の景観を作っています。"
     },
     {
         "prefecture": "三重県",
@@ -188,7 +208,8 @@ mie_questions = [
         "choices": ["ハマグリ", "カキ", "ホタテ", "サザエ"],
         "answer": "ハマグリ",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "桑名市はハマグリの産地として昔から知られています。「その手は桑名の焼き蛤」という言葉にも登場します。"
     },
     {
         "prefecture": "三重県",
@@ -196,7 +217,8 @@ mie_questions = [
         "choices": ["伊勢型紙", "美濃和紙", "越前和紙", "西陣織"],
         "answer": "伊勢型紙",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "伊勢型紙は着物などの布を染めるときに使う型紙です。鈴鹿市を中心に作られてきた伝統工芸です。"
     },
     {
         "prefecture": "三重県",
@@ -204,7 +226,8 @@ mie_questions = [
         "choices": ["萬古焼", "信楽焼", "備前焼", "有田焼"],
         "answer": "萬古焼",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "萬古焼は四日市市を中心に作られる焼き物です。土鍋や急須など、生活に身近な製品でも知られています。"
     },
     {
         "prefecture": "三重県",
@@ -212,9 +235,9 @@ mie_questions = [
         "choices": ["四日市コンビナート", "京葉工業地域", "鹿島臨海工業地帯", "北九州工業地帯"],
         "answer": "四日市コンビナート",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "四日市市の海岸部には石油化学工場などが集まる四日市コンビナートがあります。三重県を代表する工業地域の一つです。"
     },
-
 
     # =========================
     # Lv3 ⭐⭐⭐ ご当地博士
@@ -226,7 +249,8 @@ mie_questions = [
         "choices": ["御木本幸吉", "岩崎弥太郎", "渋沢栄一", "豊田佐吉"],
         "answer": "御木本幸吉",
         "category": "産業・暮らし",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "御木本幸吉は真珠養殖の発展に大きく貢献した人物です。鳥羽で真珠養殖に取り組み、「真珠王」と呼ばれました。"
     },
     {
         "prefecture": "三重県",
@@ -234,7 +258,8 @@ mie_questions = [
         "choices": ["松尾芭蕉", "与謝蕪村", "小林一茶", "正岡子規"],
         "answer": "松尾芭蕉",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "松尾芭蕉は現在の三重県伊賀市で生まれた俳人です。俳諧の世界で大きな業績を残し、「奥の細道」でよく知られています。"
     },
     {
         "prefecture": "三重県",
@@ -242,7 +267,8 @@ mie_questions = [
         "choices": ["式年遷宮", "遷都", "大嘗祭", "神嘗祭"],
         "answer": "式年遷宮",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "式年遷宮は伊勢神宮の社殿などを原則20年ごとに新しく造り替え、神様を新しい社殿へお移しする伝統行事です。"
     },
     {
         "prefecture": "三重県",
@@ -250,7 +276,8 @@ mie_questions = [
         "choices": ["豊受大御神", "天照大御神", "須佐之男命", "大国主大神"],
         "answer": "豊受大御神",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "伊勢神宮の外宮では豊受大御神が祀られています。食事や産業などをつかさどる神様とされています。"
     },
     {
         "prefecture": "三重県",
@@ -258,6 +285,7 @@ mie_questions = [
         "choices": ["藤堂高虎", "加藤清正", "黒田官兵衛", "山内一豊"],
         "answer": "藤堂高虎",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "藤堂高虎は多くの城の築城に関わったことで知られる武将です。伊賀上野城の改修にも関わり、高い石垣を築きました。"
     }
 ]

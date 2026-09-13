@@ -10,7 +10,8 @@ osaka_questions = [
         "choices": ["大阪市", "堺市", "高槻市", "東大阪市"],
         "answer": "大阪市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "大阪府の府庁所在地は大阪市です。大阪市は大阪府のほぼ中央に位置し、西側は大阪湾に面しています。"
     },
     {
         "prefecture": "大阪府",
@@ -18,7 +19,8 @@ osaka_questions = [
         "choices": ["大阪湾", "東京湾", "伊勢湾", "富山湾"],
         "answer": "大阪湾",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "大阪府は大阪湾に面しています。大阪湾は瀬戸内海の東側にあり、古くから交通や物流に利用されてきました。"
     },
     {
         "prefecture": "大阪府",
@@ -26,7 +28,8 @@ osaka_questions = [
         "choices": ["淀川", "信濃川", "利根川", "四万十川"],
         "answer": "淀川",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "淀川は琵琶湖から流れ出た水が京都・大阪を通って大阪湾へ注ぐ大きな川です。大阪の暮らしを支える重要な川でもあります。"
     },
     {
         "prefecture": "大阪府",
@@ -34,7 +37,8 @@ osaka_questions = [
         "choices": ["豊臣秀吉", "徳川家康", "織田信長", "武田信玄"],
         "answer": "豊臣秀吉",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "大阪城は豊臣秀吉によって築かれました。秀吉は大阪城を拠点として天下統一を進めました。"
     },
     {
         "prefecture": "大阪府",
@@ -42,7 +46,8 @@ osaka_questions = [
         "choices": ["台所", "学校", "港", "城"],
         "answer": "台所",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "江戸時代の大阪は「天下の台所」と呼ばれました。全国から米や特産品など多くの物資が集まる商業の中心地だったためです。"
     },
     {
         "prefecture": "大阪府",
@@ -50,7 +55,8 @@ osaka_questions = [
         "choices": ["通天閣", "東京タワー", "京都タワー", "神戸ポートタワー"],
         "answer": "通天閣",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "通天閣は大阪市の新世界にある展望塔です。現在の通天閣は1956年に完成し、大阪を代表する観光スポットの一つです。"
     },
     {
         "prefecture": "大阪府",
@@ -58,7 +64,8 @@ osaka_questions = [
         "choices": ["万博記念公園", "大阪城公園", "長居公園", "天王寺公園"],
         "answer": "万博記念公園",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "太陽の塔は吹田市の万博記念公園にあります。1970年の日本万国博覧会のテーマ館の一部として、芸術家の岡本太郎がデザインしました。"
     },
     {
         "prefecture": "大阪府",
@@ -66,7 +73,8 @@ osaka_questions = [
         "choices": ["たこ焼き", "お好み焼き", "明石焼き", "たい焼き"],
         "answer": "たこ焼き",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "たこ焼きは小麦粉などで作った生地にタコを入れて丸く焼く、大阪を代表する食べ物です。"
     },
     {
         "prefecture": "大阪府",
@@ -74,7 +82,8 @@ osaka_questions = [
         "choices": ["お好み焼き", "たこ焼き", "もんじゃ焼き", "焼きそば"],
         "answer": "お好み焼き",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "お好み焼きは小麦粉の生地にキャベツや肉などの具材を入れて鉄板で焼く料理です。大阪を代表する「粉もの」の一つです。"
     },
     {
         "prefecture": "大阪府",
@@ -82,7 +91,8 @@ osaka_questions = [
         "choices": ["岸和田だんじり祭", "天神祭", "祇園祭", "ねぶた祭"],
         "answer": "岸和田だんじり祭",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "岸和田だんじり祭は、大きなだんじりを大勢で引いて街中を走ることで有名です。特に勢いよく方向転換する「やりまわし」が見どころです。"
     },
     {
         "prefecture": "大阪府",
@@ -90,7 +100,8 @@ osaka_questions = [
         "choices": ["文楽", "歌舞伎", "能", "落語"],
         "answer": "文楽",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "文楽は大阪で発展した人形芝居で、正式には人形浄瑠璃文楽といいます。太夫・三味線・人形が一体となって物語を表現します。"
     },
     {
         "prefecture": "大阪府",
@@ -98,9 +109,9 @@ osaka_questions = [
         "choices": ["工場", "牧場", "漁港", "茶畑"],
         "answer": "工場",
         "category": "産業・暮らし",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "東大阪市には、優れた技術を持つ中小企業や工場が数多くあります。そのため「ものづくりのまち」として知られています。"
     },
-
 
     # =========================
     # Lv2 ⭐⭐ ものしり
@@ -112,7 +123,8 @@ osaka_questions = [
         "choices": ["北摂", "泉州", "河内", "南紀"],
         "answer": "北摂",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "大阪府北部は一般に「北摂」と呼ばれます。豊中市、吹田市、高槻市などがこの地域に含まれます。"
     },
     {
         "prefecture": "大阪府",
@@ -120,7 +132,8 @@ osaka_questions = [
         "choices": ["泉州", "北摂", "丹波", "播磨"],
         "answer": "泉州",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "大阪府南西部は一般に「泉州」と呼ばれます。岸和田市や泉佐野市などがあり、かつての和泉国にあたる地域です。"
     },
     {
         "prefecture": "大阪府",
@@ -128,7 +141,8 @@ osaka_questions = [
         "choices": ["生駒山地", "飛騨山脈", "六甲山地", "阿蘇山地"],
         "answer": "生駒山地",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "生駒山地は大阪府と奈良県の境付近に南北に連なる山地です。生駒山などがあり、大阪平野と奈良盆地を隔てています。"
     },
     {
         "prefecture": "大阪府",
@@ -141,7 +155,8 @@ osaka_questions = [
         ],
         "answer": "全国から多くの物資が集まったから",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "江戸時代の大阪には全国各地から米や特産品が集まりました。多くの商品が大阪で取引されたことから「天下の台所」と呼ばれました。"
     },
     {
         "prefecture": "大阪府",
@@ -149,7 +164,8 @@ osaka_questions = [
         "choices": ["難波宮", "平城宮", "平安宮", "藤原宮"],
         "answer": "難波宮",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "難波宮は古代の大阪に造られた宮殿です。現在の大阪市中央区には難波宮跡が残っています。"
     },
     {
         "prefecture": "大阪府",
@@ -162,7 +178,8 @@ osaka_questions = [
         ],
         "answer": "百舌鳥・古市古墳群",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "百舌鳥・古市古墳群は大阪府の堺市、羽曳野市、藤井寺市に広がる古墳群です。2019年に世界文化遺産に登録されました。"
     },
     {
         "prefecture": "大阪府",
@@ -170,7 +187,8 @@ osaka_questions = [
         "choices": ["大仙陵古墳", "石舞台古墳", "高松塚古墳", "キトラ古墳"],
         "answer": "大仙陵古墳",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "大仙陵古墳は堺市にある巨大な前方後円墳で、仁徳天皇陵として宮内庁が管理しています。百舌鳥・古市古墳群を代表する古墳です。"
     },
     {
         "prefecture": "大阪府",
@@ -178,7 +196,8 @@ osaka_questions = [
         "choices": ["箕面大滝", "華厳の滝", "那智の滝", "袋田の滝"],
         "answer": "箕面大滝",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "箕面大滝は箕面市にある落差約33メートルの滝です。周辺は紅葉の名所としても知られています。"
     },
     {
         "prefecture": "大阪府",
@@ -186,7 +205,8 @@ osaka_questions = [
         "choices": ["夢洲", "舞洲", "咲洲", "淡路島"],
         "answer": "夢洲",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "2025年の大阪・関西万博は、大阪市此花区の人工島「夢洲」で開催されました。会場の大屋根リングなども注目を集めました。"
     },
     {
         "prefecture": "大阪府",
@@ -194,7 +214,8 @@ osaka_questions = [
         "choices": ["水なす", "野沢菜", "ゴーヤー", "れんこん"],
         "answer": "水なす",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "水なすは泉州地域を代表する特産野菜です。水分が多く、やわらかいことが特徴で、浅漬けなどにも使われます。"
     },
     {
         "prefecture": "大阪府",
@@ -202,7 +223,8 @@ osaka_questions = [
         "choices": ["天神祭", "祇園祭", "ねぶた祭", "阿波おどり"],
         "answer": "天神祭",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "天神祭は大阪天満宮を中心に行われる大阪を代表する祭りです。京都の祇園祭、東京の神田祭とともに日本三大祭の一つとされています。"
     },
     {
         "prefecture": "大阪府",
@@ -210,7 +232,8 @@ osaka_questions = [
         "choices": ["堺打刃物", "南部鉄器", "越前漆器", "有田焼"],
         "answer": "堺打刃物",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "堺打刃物は堺市を代表する伝統産業です。職人の技術によって作られる包丁などは、料理人にも広く使われています。"
     },
     {
         "prefecture": "大阪府",
@@ -218,9 +241,9 @@ osaka_questions = [
         "choices": ["タオル", "ネクタイ", "靴下", "帽子"],
         "answer": "タオル",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "泉州地域は日本のタオル産業の発祥地として知られています。「泉州タオル」は大阪を代表する繊維製品の一つです。"
     },
-
 
     # =========================
     # Lv3 ⭐⭐⭐ ご当地博士
@@ -232,15 +255,17 @@ osaka_questions = [
         "choices": ["金剛山", "生駒山", "六甲山", "若草山"],
         "answer": "金剛山",
         "category": "地理・自然",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "金剛山は大阪府と奈良県の境にある山で、標高は1000メートルを超えます。登山やハイキングでも親しまれています。"
     },
     {
         "prefecture": "大阪府",
         "question": "大阪府にある唯一の村はどこでしょう？",
         "choices": ["千早赤阪村", "明日香村", "十津川村", "南山城村"],
         "answer": "千早赤阪村",
-        "category": "観光・名所",
-        "difficulty": 3
+        "category": "地理・自然",
+        "difficulty": 3,
+        "explanation": "千早赤阪村は大阪府で唯一の村です。大阪府南東部に位置し、楠木正成ゆかりの地としても知られています。"
     },
     {
         "prefecture": "大阪府",
@@ -248,7 +273,8 @@ osaka_questions = [
         "choices": ["泉州たまねぎ", "下仁田ねぎ", "京たけのこ", "加賀れんこん"],
         "answer": "泉州たまねぎ",
         "category": "食・特産品",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "泉州たまねぎは大阪府泉州地域の特産品です。泉州地域は日本で早くからたまねぎ栽培が広まった地域の一つです。"
     },
     {
         "prefecture": "大阪府",
@@ -256,7 +282,8 @@ osaka_questions = [
         "choices": ["千利休", "松尾芭蕉", "雪舟", "本居宣長"],
         "answer": "千利休",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "千利休は堺で生まれ、茶の湯を大成した人物です。織田信長や豊臣秀吉にも仕え、日本の茶道に大きな影響を与えました。"
     },
     {
         "prefecture": "大阪府",
@@ -264,6 +291,7 @@ osaka_questions = [
         "choices": ["歯ブラシ", "傘", "鉛筆", "ランドセル"],
         "answer": "歯ブラシ",
         "category": "産業・暮らし",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "大阪府は歯ブラシの生産が盛んな地域です。特に八尾市周辺では、歯ブラシ製造が地場産業として発展してきました。"
     }
 ]

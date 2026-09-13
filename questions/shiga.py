@@ -14,7 +14,8 @@ shiga_questions = [
         "choices": ["大津市", "彦根市", "長浜市", "草津市"],
         "answer": "大津市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "滋賀県の県庁所在地は大津市です。大津市は琵琶湖の南西側にあり、京都府とも接しています。"
     },
     {
         "prefecture": "滋賀県",
@@ -22,7 +23,8 @@ shiga_questions = [
         "choices": ["琵琶湖", "霞ヶ浦", "浜名湖", "猪苗代湖"],
         "answer": "琵琶湖",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "琵琶湖は日本で最も面積が大きい湖です。滋賀県を代表する存在で、人々の暮らしや自然環境にも深く関わっています。"
     },
     {
         "prefecture": "滋賀県",
@@ -30,7 +32,8 @@ shiga_questions = [
         "choices": ["海に面していない", "日本海に面している", "太平洋に面している", "瀬戸内海に面している"],
         "answer": "海に面していない",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "滋賀県は海に面していない内陸県です。大きな琵琶湖がありますが、琵琶湖は海ではなく淡水の湖です。"
     },
     {
         "prefecture": "滋賀県",
@@ -38,7 +41,8 @@ shiga_questions = [
         "choices": ["彦根城", "姫路城", "大阪城", "松本城"],
         "answer": "彦根城",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "彦根城は彦根市にある江戸時代のお城です。天守は国宝に指定されており、滋賀県を代表する歴史的建造物です。"
     },
     {
         "prefecture": "滋賀県",
@@ -46,7 +50,8 @@ shiga_questions = [
         "choices": ["琵琶湖大橋", "明石海峡大橋", "瀬戸大橋", "関門橋"],
         "answer": "琵琶湖大橋",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "琵琶湖大橋は琵琶湖の東岸と西岸を結ぶ橋です。湖を大きく回らずに移動できるため、交通にも役立っています。"
     },
     {
         "prefecture": "滋賀県",
@@ -54,7 +59,8 @@ shiga_questions = [
         "choices": ["ひこにゃん", "くまモン", "せんとくん", "ふなっしー"],
         "answer": "ひこにゃん",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "ひこにゃんは彦根市の人気キャラクターです。かぶとをかぶった白い猫の姿で、彦根城や彦根市のPRに活躍しています。"
     },
     {
         "prefecture": "滋賀県",
@@ -62,7 +68,8 @@ shiga_questions = [
         "choices": ["近江牛", "神戸牛", "松阪牛", "米沢牛"],
         "answer": "近江牛",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "近江牛は滋賀県を代表するブランド牛です。長い歴史を持つ和牛として知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -70,7 +77,8 @@ shiga_questions = [
         "choices": ["鮒ずし", "柿の葉寿司", "押し寿司", "ます寿司"],
         "answer": "鮒ずし",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "鮒ずしは琵琶湖でとれるフナなどを塩とご飯で発酵させて作る滋賀県の伝統食です。日本の古い寿司の形を伝える食品でもあります。"
     },
     {
         "prefecture": "滋賀県",
@@ -78,7 +86,8 @@ shiga_questions = [
         "choices": ["忍者", "侍", "海賊", "陰陽師"],
         "answer": "忍者",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "滋賀県の甲賀地方は忍者で有名です。甲賀忍者は伊賀忍者と並んで、忍者の代表としてよく知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -86,7 +95,8 @@ shiga_questions = [
         "choices": ["信楽焼", "有田焼", "備前焼", "九谷焼"],
         "answer": "信楽焼",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "信楽焼は滋賀県甲賀市信楽町を中心に作られる焼き物です。たぬきの置物でもよく知られています。"
     },
 
 
@@ -100,7 +110,8 @@ shiga_questions = [
         "choices": ["伊吹山", "比叡山", "六甲山", "大山"],
         "answer": "伊吹山",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "伊吹山は滋賀県で最も高い山です。滋賀県と岐阜県の境付近にあり、高山植物でも知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -108,7 +119,8 @@ shiga_questions = [
         "choices": ["約6分の1", "約2分の1", "約3分の1", "約10分の1"],
         "answer": "約6分の1",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "琵琶湖の面積は滋賀県全体のおよそ6分の1です。県の真ん中に大きな湖があるのが滋賀県の大きな特徴です。"
     },
     {
         "prefecture": "滋賀県",
@@ -116,7 +128,8 @@ shiga_questions = [
         "choices": ["瀬田川", "宇治川", "淀川", "桂川"],
         "answer": "瀬田川",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "琵琶湖から自然に流れ出す川は瀬田川です。下流では宇治川、さらに淀川へと名前を変え、大阪湾へ流れます。"
     },
     {
         "prefecture": "滋賀県",
@@ -124,7 +137,8 @@ shiga_questions = [
         "choices": ["安土城", "小谷城", "彦根城", "坂本城"],
         "answer": "安土城",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "安土城は織田信長が築いた城です。豪華な城として知られ、信長の天下統一の拠点となりました。"
     },
     {
         "prefecture": "滋賀県",
@@ -132,7 +146,8 @@ shiga_questions = [
         "choices": ["近江国", "山城国", "大和国", "摂津国"],
         "answer": "近江国",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "現在の滋賀県の大部分は、昔「近江国」と呼ばれていました。近江は琵琶湖を中心に交通の要所として栄えました。"
     },
     {
         "prefecture": "滋賀県",
@@ -140,7 +155,8 @@ shiga_questions = [
         "choices": ["延暦寺", "東大寺", "法隆寺", "永平寺"],
         "answer": "延暦寺",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "延暦寺は比叡山にある天台宗の総本山です。平安時代の僧・最澄によって開かれました。"
     },
     {
         "prefecture": "滋賀県",
@@ -148,7 +164,8 @@ shiga_questions = [
         "choices": ["メタセコイア並木", "哲学の道", "竹林の小径", "銀杏並木"],
         "answer": "メタセコイア並木",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "高島市のメタセコイア並木では、道路の両側にたくさんのメタセコイアが並んでいます。季節ごとに違った景色を楽しめる人気スポットです。"
     },
     {
         "prefecture": "滋賀県",
@@ -156,7 +173,8 @@ shiga_questions = [
         "choices": ["黒壁スクエア", "夢京橋キャッスルロード", "祇園", "新世界"],
         "answer": "黒壁スクエア",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "黒壁スクエアは長浜市の古い町並みを生かした観光スポットです。ガラス工芸の店や飲食店などが集まっています。"
     },
     {
         "prefecture": "滋賀県",
@@ -164,7 +182,8 @@ shiga_questions = [
         "choices": ["沖島", "竹生島", "淡路島", "佐渡島"],
         "answer": "沖島",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "沖島は琵琶湖に浮かぶ島で、人々が生活しています。淡水湖の島に人が暮らしている珍しい地域として知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -172,7 +191,8 @@ shiga_questions = [
         "choices": ["赤こんにゃく", "糸こんにゃく", "玉こんにゃく", "刺身こんにゃく"],
         "answer": "赤こんにゃく",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "赤こんにゃくは近江八幡市の名物です。鮮やかな赤色をしていますが、唐辛子のように辛いわけではありません。"
     },
     {
         "prefecture": "滋賀県",
@@ -180,7 +200,8 @@ shiga_questions = [
         "choices": ["近江商人", "堺商人", "博多商人", "江戸商人"],
         "answer": "近江商人",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "近江商人は近江国から全国各地へ出向いて商売をした商人たちです。商売だけでなく社会への貢献も大切にしました。"
     },
     {
         "prefecture": "滋賀県",
@@ -188,7 +209,8 @@ shiga_questions = [
         "choices": ["長浜曳山祭", "祇園祭", "天神祭", "岸和田だんじり祭"],
         "answer": "長浜曳山祭",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "長浜曳山祭は長浜市で行われる伝統的なお祭りです。華やかな曳山の上で演じられる子ども歌舞伎で知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -196,7 +218,8 @@ shiga_questions = [
         "choices": ["近江上布", "西陣織", "播州織", "丹後ちりめん"],
         "answer": "近江上布",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "近江上布は滋賀県で作られてきた伝統的な麻織物です。通気性がよく、涼しい着物の生地などに使われてきました。"
     },
     {
         "prefecture": "滋賀県",
@@ -204,7 +227,8 @@ shiga_questions = [
         "choices": ["三方よし", "一期一会", "和敬清寂", "質実剛健"],
         "answer": "三方よし",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "「三方よし」は、売り手・買い手・世間の三者にとってよい商売を目指す考え方です。近江商人の精神を表す言葉として知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -212,7 +236,8 @@ shiga_questions = [
         "choices": ["琵琶湖疏水", "利根運河", "北上運河", "小樽運河"],
         "answer": "琵琶湖疏水",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "琵琶湖疏水は明治時代に琵琶湖の水を京都へ送るためにつくられました。水運や水力発電、生活用水などにも利用されました。"
     },
 
 
@@ -226,7 +251,8 @@ shiga_questions = [
         "choices": ["浅井長政", "石田三成", "明智光秀", "柴田勝家"],
         "answer": "浅井長政",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "浅井長政は北近江を治め、小谷城を本拠地とした戦国大名です。織田信長の妹・お市を妻としたことでも知られています。"
     },
     {
         "prefecture": "滋賀県",
@@ -234,7 +260,8 @@ shiga_questions = [
         "choices": ["石田三成", "徳川家康", "真田幸村", "伊達政宗"],
         "answer": "石田三成",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "石田三成は近江国出身の武将で、豊臣秀吉に仕えました。1600年の関ヶ原の戦いでは西軍の中心人物となりました。"
     },
     {
         "prefecture": "滋賀県",
@@ -242,7 +269,8 @@ shiga_questions = [
         "choices": ["坂本城", "安土城", "小谷城", "彦根城"],
         "answer": "坂本城",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "坂本城は明智光秀が琵琶湖の西岸に築いた城です。現在の大津市坂本周辺にありました。"
     },
     {
         "prefecture": "滋賀県",
@@ -250,7 +278,8 @@ shiga_questions = [
         "choices": ["大津絵", "浮世絵", "錦絵", "南画"],
         "answer": "大津絵",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "大津絵は大津周辺で江戸時代から描かれてきた民画です。旅人のお土産などとして広まり、ユーモラスな絵柄も特徴です。"
     },
     {
         "prefecture": "滋賀県",
@@ -258,6 +287,7 @@ shiga_questions = [
         "choices": ["彦根仏壇", "京仏壇", "金沢仏壇", "長岡仏壇"],
         "answer": "彦根仏壇",
         "category": "産業・暮らし",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "彦根仏壇は彦根市を中心に作られてきた伝統工芸品です。木工や漆塗り、金箔など多くの職人技を組み合わせて作られます。"
     }
 ]

@@ -14,7 +14,8 @@ kyoto_questions = [
         "choices": ["京都市", "宇治市", "舞鶴市", "福知山市"],
         "answer": "京都市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "京都府の府庁所在地は京都市です。京都市には多くの寺社や歴史的な町並みが残っています。"
     },
     {
         "prefecture": "京都府",
@@ -22,7 +23,8 @@ kyoto_questions = [
         "choices": ["日本海", "太平洋", "瀬戸内海", "東シナ海"],
         "answer": "日本海",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "京都府の北部は日本海に面しています。舞鶴市や宮津市など、日本海側の地域も京都府に含まれています。"
     },
     {
         "prefecture": "京都府",
@@ -30,7 +32,8 @@ kyoto_questions = [
         "choices": ["平安京", "平城京", "江戸", "鎌倉"],
         "answer": "平安京",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "平安京は794年に現在の京都市周辺につくられた都です。その後、京都は長い間、日本の政治や文化の中心となりました。"
     },
     {
         "prefecture": "京都府",
@@ -38,7 +41,8 @@ kyoto_questions = [
         "choices": ["金閣寺", "銀閣寺", "清水寺", "東寺"],
         "answer": "金閣寺",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "金閣寺は正式には鹿苑寺といい、金色に輝く舎利殿「金閣」で有名です。京都を代表する観光名所の一つです。"
     },
     {
         "prefecture": "京都府",
@@ -46,7 +50,8 @@ kyoto_questions = [
         "choices": ["清水寺", "金閣寺", "東大寺", "法隆寺"],
         "answer": "清水寺",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "清水寺は大きな舞台を持つ本堂で有名です。「清水の舞台から飛び降りる」ということわざでも知られています。"
     },
     {
         "prefecture": "京都府",
@@ -54,7 +59,8 @@ kyoto_questions = [
         "choices": ["伏見稲荷大社", "八坂神社", "平安神宮", "北野天満宮"],
         "answer": "伏見稲荷大社",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "伏見稲荷大社は、朱色の鳥居が連なる「千本鳥居」で有名です。商売繁盛などの神様として多くの人に信仰されています。"
     },
     {
         "prefecture": "京都府",
@@ -62,7 +68,8 @@ kyoto_questions = [
         "choices": ["天橋立", "松島", "宮島", "白浜"],
         "answer": "天橋立",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "天橋立は宮津湾に細長くのびる砂州で、日本三景の一つです。松の木が並ぶ美しい景色で知られています。"
     },
     {
         "prefecture": "京都府",
@@ -70,7 +77,8 @@ kyoto_questions = [
         "choices": ["京野菜", "加賀野菜", "大和野菜", "江戸野菜"],
         "answer": "京野菜",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "京野菜は京都で昔から栽培されてきた野菜です。賀茂なすや九条ねぎなど、京都ならではの品種があります。"
     },
     {
         "prefecture": "京都府",
@@ -78,7 +86,8 @@ kyoto_questions = [
         "choices": ["お茶", "りんご", "みかん", "牛乳"],
         "answer": "お茶",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "宇治市はお茶の産地として有名です。宇治茶は品質の高い日本茶として全国的に知られています。"
     },
     {
         "prefecture": "京都府",
@@ -86,7 +95,8 @@ kyoto_questions = [
         "choices": ["八ツ橋", "赤福", "ういろう", "もみじ饅頭"],
         "answer": "八ツ橋",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "八ツ橋は京都を代表するお菓子です。特に、あんを包んだ三角形の生八ツ橋がお土産としてよく知られています。"
     },
     {
         "prefecture": "京都府",
@@ -94,7 +104,8 @@ kyoto_questions = [
         "choices": ["祇園祭", "天神祭", "ねぶた祭", "阿波おどり"],
         "answer": "祇園祭",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "祇園祭は八坂神社の祭りで、京都の夏を代表する行事です。豪華な山鉾が街を進む山鉾巡行が有名です。"
     },
     {
         "prefecture": "京都府",
@@ -102,9 +113,9 @@ kyoto_questions = [
         "choices": ["西陣織", "播州織", "結城紬", "大島紬"],
         "answer": "西陣織",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "西陣織は京都市の西陣地域を中心に作られてきた高級な織物です。着物や帯などに使われます。"
     },
-
 
     # =========================
     # Lv2 ⭐⭐ ものしり
@@ -116,7 +127,8 @@ kyoto_questions = [
         "choices": ["丹後半島", "能登半島", "紀伊半島", "房総半島"],
         "answer": "丹後半島",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "丹後半島は京都府北部に広がる半島です。日本海に面し、美しい海岸や自然景観が多く見られます。"
     },
     {
         "prefecture": "京都府",
@@ -124,7 +136,8 @@ kyoto_questions = [
         "choices": ["宮津市", "宇治市", "舞鶴市", "亀岡市"],
         "answer": "宮津市",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "天橋立は京都府宮津市にあります。宮津湾にのびる砂州で、日本三景の一つとして知られています。"
     },
     {
         "prefecture": "京都府",
@@ -132,7 +145,8 @@ kyoto_questions = [
         "choices": ["794年", "710年", "1185年", "1603年"],
         "answer": "794年",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "794年に都が平安京へ移されました。「なくよ（794）うぐいす平安京」という語呂合わせでもよく覚えられます。"
     },
     {
         "prefecture": "京都府",
@@ -140,7 +154,8 @@ kyoto_questions = [
         "choices": ["桓武天皇", "聖武天皇", "天武天皇", "後醍醐天皇"],
         "answer": "桓武天皇",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "桓武天皇は794年に都を平安京へ移しました。ここから平安時代が始まりました。"
     },
     {
         "prefecture": "京都府",
@@ -148,7 +163,8 @@ kyoto_questions = [
         "choices": ["足利尊氏", "源頼朝", "徳川家康", "豊臣秀吉"],
         "answer": "足利尊氏",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "足利尊氏は室町幕府を開いた武将です。室町幕府は京都を中心に政治を行いました。"
     },
     {
         "prefecture": "京都府",
@@ -156,7 +172,8 @@ kyoto_questions = [
         "choices": ["二条城", "大阪城", "姫路城", "彦根城"],
         "answer": "二条城",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "二条城は徳川家康が築いた城です。江戸幕府の始まりに関わり、幕末には徳川慶喜が大政奉還の意思を示した場所としても知られています。"
     },
     {
         "prefecture": "京都府",
@@ -164,7 +181,8 @@ kyoto_questions = [
         "choices": ["平等院", "清水寺", "金閣寺", "東寺"],
         "answer": "平等院",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "宇治市の平等院鳳凰堂は10円硬貨の表面に描かれています。平安時代を代表する建築として知られています。"
     },
     {
         "prefecture": "京都府",
@@ -172,7 +190,8 @@ kyoto_questions = [
         "choices": ["嵐山", "祇園", "伏見", "宇治"],
         "answer": "嵐山",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "嵐山は京都市西部にある観光地です。竹林の小径や渡月橋など、多くの名所があります。"
     },
     {
         "prefecture": "京都府",
@@ -180,7 +199,8 @@ kyoto_questions = [
         "choices": ["千枚漬", "奈良漬", "野沢菜漬", "高菜漬"],
         "answer": "千枚漬",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "千枚漬は、かぶを薄く切って漬けた京都の代表的な漬物です。京都の冬の味覚として親しまれています。"
     },
     {
         "prefecture": "京都府",
@@ -188,7 +208,8 @@ kyoto_questions = [
         "choices": ["ハモ", "サンマ", "サケ", "マグロ"],
         "answer": "ハモ",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "ハモは京都の夏を代表する魚です。細かい骨が多いため、「骨切り」という職人技を使って料理されます。"
     },
     {
         "prefecture": "京都府",
@@ -196,7 +217,8 @@ kyoto_questions = [
         "choices": ["京友禅", "藍染", "紅型", "絞り染め"],
         "answer": "京友禅",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "京友禅は京都を代表する染色技法です。華やかな色や模様で着物などを美しく染め上げます。"
     },
     {
         "prefecture": "京都府",
@@ -204,7 +226,8 @@ kyoto_questions = [
         "choices": ["京焼・清水焼", "有田焼", "信楽焼", "備前焼"],
         "answer": "京焼・清水焼",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "京焼・清水焼は京都で作られる陶磁器の総称です。さまざまな技法や華やかなデザインが特徴です。"
     },
     {
         "prefecture": "京都府",
@@ -212,9 +235,9 @@ kyoto_questions = [
         "choices": ["丹後ちりめん", "西陣織", "博多織", "結城紬"],
         "answer": "丹後ちりめん",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "丹後ちりめんは京都府北部の丹後地方で作られる絹織物です。表面に細かな凹凸があり、着物の生地などに使われます。"
     },
-
 
     # =========================
     # Lv3 ⭐⭐⭐ ご当地博士
@@ -226,7 +249,8 @@ kyoto_questions = [
         "choices": ["応仁の乱", "壬申の乱", "島原の乱", "承久の乱"],
         "answer": "応仁の乱",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "応仁の乱は1467年に始まり、京都を中心に約11年間続いた大きな戦乱です。戦国時代へつながるきっかけの一つになりました。"
     },
     {
         "prefecture": "京都府",
@@ -234,7 +258,8 @@ kyoto_questions = [
         "choices": ["長岡京", "平城京", "藤原京", "難波京"],
         "answer": "長岡京",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "長岡京は784年に都となり、平安京へ移るまで約10年間使われました。現在の長岡京市などにまたがっていました。"
     },
     {
         "prefecture": "京都府",
@@ -242,7 +267,8 @@ kyoto_questions = [
         "choices": ["舟屋", "合掌造り", "町家", "蔵"],
         "answer": "舟屋",
         "category": "観光・名所",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "舟屋は伊根町に見られる伝統的な建物です。1階部分が船を収納する場所になっており、海沿いに建物が並ぶ独特の景観を作っています。"
     },
     {
         "prefecture": "京都府",
@@ -250,7 +276,8 @@ kyoto_questions = [
         "choices": ["葵祭", "天神祭", "ねぶた祭", "阿波おどり"],
         "answer": "葵祭",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "葵祭は京都三大祭の一つです。平安装束を身につけた行列が京都御所から上賀茂神社などへ進むことで知られています。"
     },
     {
         "prefecture": "京都府",
@@ -258,6 +285,7 @@ kyoto_questions = [
         "choices": ["北山杉", "吉野杉", "秋田杉", "木曽ヒノキ"],
         "answer": "北山杉",
         "category": "産業・暮らし",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "北山杉は京都市北部で育てられてきた杉です。表面が美しい磨き丸太は、茶室や数寄屋建築などにも使われます。"
     }
 ]

@@ -10,7 +10,8 @@ hyogo_questions = [
         "choices": ["神戸市", "姫路市", "明石市", "西宮市"],
         "answer": "神戸市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "兵庫県の県庁所在地は神戸市です。神戸港や六甲山などがあり、兵庫県を代表する都市です。"
     },
     {
         "prefecture": "兵庫県",
@@ -18,7 +19,8 @@ hyogo_questions = [
         "choices": ["淡路島", "佐渡島", "屋久島", "種子島"],
         "answer": "淡路島",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "淡路島は兵庫県南部にある大きな島です。本州とは明石海峡大橋でつながっています。"
     },
     {
         "prefecture": "兵庫県",
@@ -26,7 +28,8 @@ hyogo_questions = [
         "choices": ["日本海", "太平洋", "東シナ海", "有明海"],
         "answer": "日本海",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "兵庫県の北側は日本海に面しています。兵庫県は日本海と瀬戸内海の両方に面している珍しい県です。"
     },
     {
         "prefecture": "兵庫県",
@@ -34,7 +37,8 @@ hyogo_questions = [
         "choices": ["明石市", "神戸市", "姫路市", "尼崎市"],
         "answer": "明石市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "明石市には日本標準時の基準となる東経135度の子午線が通っています。そのため「日本標準時のまち」として知られています。"
     },
     {
         "prefecture": "兵庫県",
@@ -42,7 +46,8 @@ hyogo_questions = [
         "choices": ["姫路城", "大阪城", "彦根城", "松本城"],
         "answer": "姫路城",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "姫路城は白い外観から「白鷺城」とも呼ばれています。世界遺産にも登録されている、日本を代表する城です。"
     },
     {
         "prefecture": "兵庫県",
@@ -50,7 +55,8 @@ hyogo_questions = [
         "choices": ["明石海峡大橋", "瀬戸大橋", "関門橋", "レインボーブリッジ"],
         "answer": "明石海峡大橋",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "明石海峡大橋は神戸市と淡路島を結ぶ大きなつり橋です。明石海峡をまたぎ、本州と淡路島をつないでいます。"
     },
     {
         "prefecture": "兵庫県",
@@ -58,7 +64,8 @@ hyogo_questions = [
         "choices": ["六甲山", "富士山", "高野山", "比叡山"],
         "answer": "六甲山",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "六甲山は神戸市の北側に広がる山地です。山上から見える神戸や大阪方面の夜景でも有名です。"
     },
     {
         "prefecture": "兵庫県",
@@ -66,7 +73,8 @@ hyogo_questions = [
         "choices": ["神戸牛", "松阪牛", "米沢牛", "近江牛"],
         "answer": "神戸牛",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "神戸牛は兵庫県を代表するブランド牛です。厳しい基準を満たした但馬牛だけが神戸牛として認められます。"
     },
     {
         "prefecture": "兵庫県",
@@ -74,7 +82,8 @@ hyogo_questions = [
         "choices": ["明石焼き", "たこ焼き", "お好み焼き", "たい焼き"],
         "answer": "明石焼き",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "明石焼きは卵を多く使ったやわらかい生地にタコを入れて焼く明石市の名物です。だしにつけて食べるのが特徴です。"
     },
     {
         "prefecture": "兵庫県",
@@ -82,7 +91,8 @@ hyogo_questions = [
         "choices": ["たまねぎ", "れんこん", "ごぼう", "ピーマン"],
         "answer": "たまねぎ",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "淡路島はたまねぎの産地として有名です。甘みが強いことで知られ、さまざまな料理に使われています。"
     },
     {
         "prefecture": "兵庫県",
@@ -90,7 +100,8 @@ hyogo_questions = [
         "choices": ["阪神甲子園球場", "東京ドーム", "明治神宮野球場", "京セラドーム大阪"],
         "answer": "阪神甲子園球場",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "阪神甲子園球場は西宮市にあり、春と夏の高校野球全国大会の舞台として有名です。阪神タイガースの本拠地でもあります。"
     },
     {
         "prefecture": "兵庫県",
@@ -98,7 +109,8 @@ hyogo_questions = [
         "choices": ["宝塚歌劇団", "劇団四季", "松竹新喜劇", "吉本新喜劇"],
         "answer": "宝塚歌劇団",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "宝塚歌劇団は宝塚市を本拠地とする歌劇団です。出演者が女性だけで構成されていることで知られています。"
     },
 
 
@@ -112,7 +124,8 @@ hyogo_questions = [
         "choices": ["但馬", "播磨", "摂津", "淡路"],
         "answer": "但馬",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "兵庫県北部は一般に「但馬」と呼ばれます。豊岡市や養父市などがあり、日本海に面しています。"
     },
     {
         "prefecture": "兵庫県",
@@ -120,7 +133,8 @@ hyogo_questions = [
         "choices": ["播磨", "但馬", "丹波", "摂津"],
         "answer": "播磨",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "兵庫県南西部を中心とする地域は「播磨」と呼ばれます。姫路市やたつの市などがこの地域に含まれます。"
     },
     {
         "prefecture": "兵庫県",
@@ -128,7 +142,8 @@ hyogo_questions = [
         "choices": ["氷ノ山", "六甲山", "生駒山", "大山"],
         "answer": "氷ノ山",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "氷ノ山は兵庫県と鳥取県の県境にある山で、兵庫県内で最も高い山です。冬には雪も多く降ります。"
     },
     {
         "prefecture": "兵庫県",
@@ -136,7 +151,8 @@ hyogo_questions = [
         "choices": ["瀬戸内海", "日本海", "東シナ海", "オホーツク海"],
         "answer": "瀬戸内海",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "兵庫県の南側は瀬戸内海に面しています。神戸港や姫路港など、海上交通に関わる港もあります。"
     },
     {
         "prefecture": "兵庫県",
@@ -144,7 +160,8 @@ hyogo_questions = [
         "choices": ["塩", "砂糖", "茶", "絹"],
         "answer": "塩",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "赤穂市では昔から塩づくりが盛んでした。瀬戸内海沿岸の気候を生かして塩が作られてきました。"
     },
     {
         "prefecture": "兵庫県",
@@ -152,7 +169,8 @@ hyogo_questions = [
         "choices": ["阪神・淡路大震災", "東日本大震災", "関東大震災", "熊本地震"],
         "answer": "阪神・淡路大震災",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "阪神・淡路大震災は1995年1月17日に発生しました。神戸市など兵庫県南部を中心に大きな被害が出ました。"
     },
     {
         "prefecture": "兵庫県",
@@ -160,7 +178,8 @@ hyogo_questions = [
         "choices": ["城崎温泉", "有馬温泉", "草津温泉", "道後温泉"],
         "answer": "城崎温泉",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "城崎温泉は豊岡市にある温泉地です。町に点在する複数の外湯をめぐる「外湯めぐり」が有名です。"
     },
     {
         "prefecture": "兵庫県",
@@ -168,7 +187,8 @@ hyogo_questions = [
         "choices": ["竹田城跡", "赤穂城跡", "明石城跡", "篠山城跡"],
         "answer": "竹田城跡",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "竹田城跡は朝来市の山上にある城跡です。条件がそろうと雲海に包まれ、城が空に浮かんでいるように見えることがあります。"
     },
     {
         "prefecture": "兵庫県",
@@ -176,7 +196,8 @@ hyogo_questions = [
         "choices": ["鳴門海峡", "明石海峡", "関門海峡", "津軽海峡"],
         "answer": "鳴門海峡",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "鳴門海峡は淡路島と四国の間にあります。潮の流れによって生まれる大きな渦潮で有名です。"
     },
     {
         "prefecture": "兵庫県",
@@ -184,7 +205,8 @@ hyogo_questions = [
         "choices": ["丹波黒大豆", "枝豆", "小豆", "金時豆"],
         "answer": "丹波黒大豆",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "丹波黒大豆は丹波地域を代表する特産品です。粒が大きく、正月料理の黒豆などにも使われます。"
     },
     {
         "prefecture": "兵庫県",
@@ -192,7 +214,8 @@ hyogo_questions = [
         "choices": ["手延べそうめん", "うどん", "そば", "ラーメン"],
         "answer": "手延べそうめん",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "揖保乃糸は播州地域で作られる手延べそうめんの代表的なブランドです。長い歴史を持つ兵庫県の特産品です。"
     },
     {
         "prefecture": "兵庫県",
@@ -200,7 +223,8 @@ hyogo_questions = [
         "choices": ["日本酒", "ワイン", "ウイスキー", "ビール"],
         "answer": "日本酒",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "神戸市の灘地域は日本有数の酒どころです。六甲山系の水や良質な米などを生かして日本酒づくりが発展しました。"
     },
     {
         "prefecture": "兵庫県",
@@ -208,7 +232,8 @@ hyogo_questions = [
         "choices": ["かばん", "靴下", "眼鏡", "傘"],
         "answer": "かばん",
         "category": "産業・暮らし",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "豊岡市はかばんの産地として全国的に知られています。長い歴史を持つ地場産業として発展してきました。"
     },
 
 
@@ -222,7 +247,8 @@ hyogo_questions = [
         "choices": ["赤穂浪士", "新選組", "白虎隊", "奇兵隊"],
         "answer": "赤穂浪士",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "赤穂浪士は赤穂藩に仕えていた武士たちです。主君の敵討ちをした出来事が「忠臣蔵」として広く知られるようになりました。"
     },
     {
         "prefecture": "兵庫県",
@@ -230,7 +256,8 @@ hyogo_questions = [
         "choices": ["黒田官兵衛", "真田幸村", "石田三成", "伊達政宗"],
         "answer": "黒田官兵衛",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "黒田官兵衛は姫路とゆかりの深い戦国武将です。優れた知略を持ち、豊臣秀吉の天下統一を支えた軍師として知られています。"
     },
     {
         "prefecture": "兵庫県",
@@ -238,7 +265,8 @@ hyogo_questions = [
         "choices": ["淡路人形浄瑠璃", "能", "歌舞伎", "狂言"],
         "answer": "淡路人形浄瑠璃",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "淡路人形浄瑠璃は淡路島に古くから伝わる人形芝居です。人形遣い、語り、三味線が一体となって物語を演じます。"
     },
     {
         "prefecture": "兵庫県",
@@ -246,7 +274,8 @@ hyogo_questions = [
         "choices": ["播州織", "西陣織", "結城紬", "大島紬"],
         "answer": "播州織",
         "category": "産業・暮らし",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "播州織は西脇市周辺で発展した織物です。糸を先に染めてから織る「先染め」という方法が特徴です。"
     },
     {
         "prefecture": "兵庫県",
@@ -254,6 +283,7 @@ hyogo_questions = [
         "choices": ["金物", "陶器", "漆器", "ガラス製品"],
         "answer": "金物",
         "category": "産業・暮らし",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "三木市は大工道具などの金物づくりで有名です。のこぎり、のみ、かんななどが長く作られてきました。"
     }
 ]

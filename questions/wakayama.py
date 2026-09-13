@@ -14,7 +14,8 @@ wakayama_questions = [
         "choices": ["和歌山市", "田辺市", "新宮市", "海南市"],
         "answer": "和歌山市",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "和歌山県の県庁所在地は和歌山市です。県の北西部にあり、和歌山城などの名所があります。"
     },
     {
         "prefecture": "和歌山県",
@@ -22,7 +23,8 @@ wakayama_questions = [
         "choices": ["紀伊半島", "能登半島", "房総半島", "薩摩半島"],
         "answer": "紀伊半島",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "和歌山県は紀伊半島の西側から南側に広がっています。紀伊半島には奈良県や三重県も含まれます。"
     },
     {
         "prefecture": "和歌山県",
@@ -30,7 +32,8 @@ wakayama_questions = [
         "choices": ["潮岬", "宗谷岬", "室戸岬", "佐多岬"],
         "answer": "潮岬",
         "category": "地理・自然",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "潮岬は和歌山県串本町にあり、本州最南端の岬です。太平洋を一望できる景勝地としても知られています。"
     },
     {
         "prefecture": "和歌山県",
@@ -38,7 +41,8 @@ wakayama_questions = [
         "choices": ["和歌山城", "大阪城", "彦根城", "姫路城"],
         "answer": "和歌山城",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "和歌山城は和歌山市の中心部にある城です。江戸時代には紀州徳川家の居城として使われました。"
     },
     {
         "prefecture": "和歌山県",
@@ -46,7 +50,8 @@ wakayama_questions = [
         "choices": ["高野山", "比叡山", "吉野山", "六甲山"],
         "answer": "高野山",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "高野山は弘法大師・空海が開いた真言密教の聖地です。多くの寺院が集まり、世界遺産にも関係しています。"
     },
     {
         "prefecture": "和歌山県",
@@ -54,7 +59,8 @@ wakayama_questions = [
         "choices": ["空海", "最澄", "聖徳太子", "鑑真"],
         "answer": "空海",
         "category": "歴史",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "空海は平安時代の僧で、弘法大師とも呼ばれます。高野山を真言密教の修行の場として開きました。"
     },
     {
         "prefecture": "和歌山県",
@@ -62,7 +68,8 @@ wakayama_questions = [
         "choices": ["那智の滝", "華厳の滝", "袋田の滝", "箕面大滝"],
         "answer": "那智の滝",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "那智の滝は和歌山県那智勝浦町にある大きな滝です。熊野那智大社の近くにあり、日本三名瀑の一つに数えられています。"
     },
     {
         "prefecture": "和歌山県",
@@ -70,7 +77,8 @@ wakayama_questions = [
         "choices": ["アドベンチャーワールド", "ナガシマスパーランド", "ひらかたパーク", "東武動物公園"],
         "answer": "アドベンチャーワールド",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "アドベンチャーワールドは白浜町にあるテーマパークです。動物園・水族館・遊園地の要素をあわせ持つ施設です。"
     },
     {
         "prefecture": "和歌山県",
@@ -78,7 +86,8 @@ wakayama_questions = [
         "choices": ["白浜温泉", "有馬温泉", "草津温泉", "城崎温泉"],
         "answer": "白浜温泉",
         "category": "観光・名所",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "白浜温泉は和歌山県を代表する温泉地です。海辺の温泉地として古くから多くの人に親しまれてきました。"
     },
     {
         "prefecture": "和歌山県",
@@ -86,7 +95,8 @@ wakayama_questions = [
         "choices": ["みかん", "りんご", "ぶどう", "さくらんぼ"],
         "answer": "みかん",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "和歌山県はみかんの生産が盛んな地域です。特に有田地方で作られる有田みかんがよく知られています。"
     },
     {
         "prefecture": "和歌山県",
@@ -94,7 +104,8 @@ wakayama_questions = [
         "choices": ["梅", "梨", "桃", "柿"],
         "answer": "梅",
         "category": "食・特産品",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "和歌山県は梅の生産がとても盛んです。梅干しや梅酒など、さまざまな加工品にも使われています。"
     },
     {
         "prefecture": "和歌山県",
@@ -102,9 +113,9 @@ wakayama_questions = [
         "choices": ["熊野古道", "中山道", "東海道", "奥州街道"],
         "answer": "熊野古道",
         "category": "文化・伝統",
-        "difficulty": 1
+        "difficulty": 1,
+        "explanation": "熊野古道は熊野三山へ向かうために多くの人が歩いた参詣道です。紀伊山地の霊場と参詣道の一部として世界遺産に登録されています。"
     },
-
 
     # =========================
     # Lv2 ⭐⭐ ものしり
@@ -116,7 +127,8 @@ wakayama_questions = [
         "choices": ["紀伊山地", "飛騨山脈", "中国山地", "筑紫山地"],
         "answer": "紀伊山地",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "紀伊山地は和歌山県・奈良県・三重県にまたがる広い山地です。高野山や熊野など、信仰と関わりの深い地域も含まれます。"
     },
     {
         "prefecture": "和歌山県",
@@ -124,7 +136,8 @@ wakayama_questions = [
         "choices": ["串本町", "白浜町", "那智勝浦町", "有田川町"],
         "answer": "串本町",
         "category": "地理・自然",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "串本町は和歌山県南部にあり、本州最南端の町です。町内には潮岬や橋杭岩などの名所があります。"
     },
     {
         "prefecture": "和歌山県",
@@ -132,7 +145,8 @@ wakayama_questions = [
         "choices": ["紀州徳川家", "尾張徳川家", "水戸徳川家", "会津松平家"],
         "answer": "紀州徳川家",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "紀州徳川家は徳川御三家の一つです。和歌山城を中心に紀州藩を治めました。"
     },
     {
         "prefecture": "和歌山県",
@@ -140,7 +154,8 @@ wakayama_questions = [
         "choices": ["徳川吉宗", "徳川家康", "徳川家光", "徳川慶喜"],
         "answer": "徳川吉宗",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "徳川吉宗は紀州藩主を務めた後、江戸幕府第8代将軍になりました。享保の改革を行った将軍としても有名です。"
     },
     {
         "prefecture": "和歌山県",
@@ -148,7 +163,8 @@ wakayama_questions = [
         "choices": ["紀伊国", "大和国", "山城国", "伊勢国"],
         "answer": "紀伊国",
         "category": "歴史",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "現在の和歌山県の大部分は、昔は紀伊国と呼ばれていました。紀伊国は現在の三重県南部の一部も含んでいました。"
     },
     {
         "prefecture": "和歌山県",
@@ -156,7 +172,8 @@ wakayama_questions = [
         "choices": ["金剛峯寺", "延暦寺", "東大寺", "永平寺"],
         "answer": "金剛峯寺",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "金剛峯寺は高野山真言宗の総本山です。高野山を代表する寺院の一つで、多くの参拝者が訪れます。"
     },
     {
         "prefecture": "和歌山県",
@@ -164,7 +181,8 @@ wakayama_questions = [
         "choices": ["熊野那智大社", "熊野本宮大社", "熊野速玉大社", "春日大社"],
         "answer": "熊野那智大社",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "熊野那智大社は熊野三山の一つです。那智の滝の近くにあり、古くから信仰を集めてきました。"
     },
     {
         "prefecture": "和歌山県",
@@ -172,7 +190,8 @@ wakayama_questions = [
         "choices": ["橋杭岩", "鬼ヶ城", "三段壁", "千畳敷"],
         "answer": "橋杭岩",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "橋杭岩は串本町の海岸に並ぶ岩の列です。橋の杭が並んでいるように見えることから、この名前がつきました。"
     },
     {
         "prefecture": "和歌山県",
@@ -180,7 +199,8 @@ wakayama_questions = [
         "choices": ["白良浜", "片瀬海岸", "白浜大浜", "桂浜"],
         "answer": "白良浜",
         "category": "観光・名所",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "白良浜は白浜町にある白い砂浜です。夏は海水浴場としてにぎわい、白浜を代表する観光スポットの一つです。"
     },
     {
         "prefecture": "和歌山県",
@@ -188,7 +208,8 @@ wakayama_questions = [
         "choices": ["南高梅", "白加賀", "豊後梅", "鶯宿梅"],
         "answer": "南高梅",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "南高梅は和歌山県を代表する梅の品種です。実が大きく皮がやわらかいため、梅干しなどによく使われます。"
     },
     {
         "prefecture": "和歌山県",
@@ -196,7 +217,8 @@ wakayama_questions = [
         "choices": ["めはり寿司", "柿の葉寿司", "笹寿司", "押し寿司"],
         "answer": "めはり寿司",
         "category": "食・特産品",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "めはり寿司は、ご飯を高菜の漬物の葉で包んだ熊野地方の郷土料理です。昔は山仕事などのお弁当としても食べられていました。"
     },
     {
         "prefecture": "和歌山県",
@@ -204,7 +226,8 @@ wakayama_questions = [
         "choices": ["紀州漆器", "輪島塗", "会津塗", "越前漆器"],
         "answer": "紀州漆器",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "紀州漆器は海南市の黒江地区を中心に発展した伝統工芸です。お盆や器などさまざまな製品が作られています。"
     },
     {
         "prefecture": "和歌山県",
@@ -212,9 +235,9 @@ wakayama_questions = [
         "choices": ["熊野本宮大社", "熊野速玉大社", "熊野那智大社", "伊勢神宮"],
         "answer": "熊野本宮大社",
         "category": "文化・伝統",
-        "difficulty": 2
+        "difficulty": 2,
+        "explanation": "熊野本宮大社は熊野三山の一つです。全国各地にある熊野神社の総本宮として知られています。"
     },
-
 
     # =========================
     # Lv3 ⭐⭐⭐ ご当地博士
@@ -226,7 +249,8 @@ wakayama_questions = [
         "choices": ["奥之院", "金堂", "根本大塔", "壇上伽藍"],
         "answer": "奥之院",
         "category": "観光・名所",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "奥之院は高野山の信仰の中心地の一つです。弘法大師・空海が今もそこで人々を見守っていると信じられています。"
     },
     {
         "prefecture": "和歌山県",
@@ -234,7 +258,8 @@ wakayama_questions = [
         "choices": ["熊野速玉大社", "熊野本宮大社", "熊野那智大社", "日前神宮"],
         "answer": "熊野速玉大社",
         "category": "文化・伝統",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "熊野速玉大社は新宮市にある熊野三山の一つです。熊野本宮大社、熊野那智大社とともに古くから信仰を集めてきました。"
     },
     {
         "prefecture": "和歌山県",
@@ -242,7 +267,8 @@ wakayama_questions = [
         "choices": ["徳川頼宣", "徳川吉宗", "徳川家康", "徳川秀忠"],
         "answer": "徳川頼宣",
         "category": "歴史",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "徳川頼宣は徳川家康の十男で、紀州徳川家の初代藩主となりました。紀州藩の基礎を築いた人物です。"
     },
     {
         "prefecture": "和歌山県",
@@ -250,7 +276,8 @@ wakayama_questions = [
         "choices": ["中辺路", "東海道", "熊野街道", "伊勢路"],
         "answer": "中辺路",
         "category": "地理・自然",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "中辺路は熊野古道を代表するルートの一つです。田辺から山中を通り、熊野本宮大社方面へ向かいます。"
     },
     {
         "prefecture": "和歌山県",
@@ -258,6 +285,7 @@ wakayama_questions = [
         "choices": ["醤油", "味噌", "酢", "みりん"],
         "answer": "醤油",
         "category": "食・特産品",
-        "difficulty": 3
+        "difficulty": 3,
+        "explanation": "湯浅町は日本の醤油づくり発祥の地の一つとして知られています。昔から伝統的な方法で醤油が作られてきました。"
     }
 ]
