@@ -1,4 +1,22 @@
 import random
+import json
+from pathlib import Path
+
+PROGRESS_FILE = Path(__file__).parent / "progress.json"
+
+# =========================
+# 近畿地方の都道府県
+# =========================
+kinki_prefectures = [
+    "奈良県",
+    "大阪府",
+    "兵庫県",
+    "京都府",
+    "滋賀県",
+    "和歌山県",
+    "三重県"
+]
+
 # =========================
 # 問題データ
 # =========================
@@ -30,6 +48,17 @@ print("ようこそ都道府県クイズへ！")
 print("このアプリでは、日本の都道府県に関するクイズを出題します。")
 print("それでは、クイズを始めましょう！")
 
+# =========================
+# プレイ記録を読み込む
+# =========================
+
+try:
+    with open(PROGRESS_FILE, "r", encoding="utf-8") as file:
+        progress = json.load(file)
+
+except FileNotFoundError:
+    progress = {}
+
 score = 0
 
 # =========================
@@ -41,6 +70,7 @@ while True:
     print("1. 都道府県選択")
     print("2. 地方制覇の旅")
     print("3. 日本一周制覇の旅")
+    print("4. 制覇状況を見る")
 
     mode_choice = input("番号を入力してください: ")
 
@@ -53,8 +83,11 @@ while True:
     elif mode_choice == "3":
         game_mode = "japan"
         break
+    elif mode_choice == "4":
+        game_mode = "view_progress"
+        break
     else:
-        print("1から3の番号を入力してください。")
+        print("1から4の番号を入力してください。")
 
 # =========================
 # ゲームモードごとの処理
@@ -320,7 +353,24 @@ elif game_mode == "japan":
     print("\n日本一周制覇の旅は現在開発中です！")
     exit()
 
+elif game_mode == "view_progress":
+    print("\n===== 🗾 制覇状況 =====")
 
+    cleared_count = 0
+
+    for prefecture in kinki_prefectures:
+        data = progress.get(prefecture, {})
+
+        if data.get("cleared"):
+            best_score = data.get("best_score", 0)
+            print(f"✅ {prefecture}：制覇　BEST {best_score:.0f}%")
+            cleared_count += 1
+        else:
+            print(f"⬜ {prefecture}：未制覇")
+
+    print(f"\n近畿制覇：{cleared_count} / {len(kinki_prefectures)}")
+
+    exit()
 
 
 # =========================
@@ -359,7 +409,7 @@ for i, question in enumerate(selected_questions, 1):
         print(f"正解は「{question['answer']}」です。")
 
     print(f"💡 解説：{question['explanation']}")
-    
+
 # =========================
 # 結果発表
 # =========================
@@ -375,6 +425,17 @@ if game_mode == "prefecture":
 
     if percentage >= 80:
         print(f"🎉 {selected_prefecture}合格です！")
+
+        old_best = progress.get(selected_prefecture, {}).get("best_score", 0)
+        best_score = max(old_best, percentage)
+        progress[selected_prefecture] = {
+            "cleared": True,
+            "best_score": best_score
+        }
+
+        with open(PROGRESS_FILE, "w", encoding="utf-8") as file:
+            json.dump(progress, file, ensure_ascii=False, indent=4)
+
     else:
         print(f"残念！{selected_prefecture}合格ならず！")
         print("もう一度挑戦してみてください！")
