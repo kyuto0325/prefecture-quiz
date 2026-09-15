@@ -2,5 +2,9 @@
     "奈良県": {
         "cleared": true,
         "best_score": 80.0
+    },
+    "大阪府": {
+        "cleared": false,
+        "best_score": 30.0
     }
 }

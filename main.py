@@ -422,24 +422,25 @@ print(f"正解数は{correct_count} / {quiz_count}問です。")
 print(f"正答率は{percentage:.0f}%です。")
 
 if game_mode == "prefecture":
+    old_best = progress.get(selected_prefecture, {}).get("best_score", 0)
+    best_score = max(old_best, percentage)
 
+    already_cleared = progress.get(selected_prefecture, {}).get("cleared", False)
+    cleared = already_cleared or percentage >= 80
     if percentage >= 80:
         print(f"🎉 {selected_prefecture}合格です！")
-
-        old_best = progress.get(selected_prefecture, {}).get("best_score", 0)
-        best_score = max(old_best, percentage)
-        progress[selected_prefecture] = {
-            "cleared": True,
-            "best_score": best_score
-        }
-
-        with open(PROGRESS_FILE, "w", encoding="utf-8") as file:
-            json.dump(progress, file, ensure_ascii=False, indent=4)
-
+    
     else:
         print(f"残念！{selected_prefecture}合格ならず！")
         print("もう一度挑戦してみてください！")
+    progress[selected_prefecture] = {
+        "cleared": cleared,
+        "best_score": best_score
+    }
 
+    with open(PROGRESS_FILE, "w", encoding="utf-8") as file:
+        json.dump(progress, file, ensure_ascii=False, indent=4)
+    
 elif game_mode == "region":
 
     if correct_count == quiz_count:
