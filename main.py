@@ -5,17 +5,75 @@ from pathlib import Path
 PROGRESS_FILE = Path(__file__).parent / "progress.json"
 
 # =========================
-# 近畿地方の都道府県
+# 地方ごとの都道府県
 # =========================
-kinki_prefectures = [
-    "奈良県",
-    "大阪府",
-    "兵庫県",
-    "京都府",
-    "滋賀県",
-    "和歌山県",
-    "三重県"
-]
+
+regions = {
+    "北海道地方": [
+        "北海道"
+    ],
+    "東北地方": [
+        "青森県",
+        "岩手県",
+        "宮城県",
+        "秋田県",
+        "山形県",
+        "福島県"
+    ],
+    "関東地方": [
+        "茨城県",
+        "栃木県",
+        "群馬県",
+        "埼玉県",
+        "千葉県",
+        "東京都",
+        "神奈川県"
+    ],
+    "中部地方": [
+        "新潟県",
+        "富山県",
+        "石川県",
+        "福井県",
+        "山梨県",
+        "長野県",
+        "岐阜県",
+        "静岡県",
+        "愛知県"
+    ],
+    "近畿地方": [
+        "三重県",
+        "滋賀県",
+        "京都府",
+        "大阪府",
+        "兵庫県",
+        "奈良県",
+        "和歌山県"
+    ],
+    "中国地方": [
+        "鳥取県",
+        "島根県",
+        "岡山県",
+        "広島県",
+        "山口県"
+    ],
+    "四国地方": [
+        "徳島県",
+        "香川県",
+        "愛媛県",
+        "高知県"
+    ],
+    "九州・沖縄地方": [
+        "福岡県",
+        "佐賀県",
+        "長崎県",
+        "熊本県",
+        "大分県",
+        "宮崎県",
+        "鹿児島県",
+        "沖縄県"
+    ]
+}
+
 
 # =========================
 # 問題データ
@@ -152,12 +210,12 @@ if game_mode == "prefecture":
             selected_prefecture = "和歌山県"
             questions = wakayama_questions
             break
-        elif prefecture_choice == "9":
+        elif prefecture_choice == "10":
             selected_prefecture = "三重県"
             questions = mie_questions
             break
         else:
-            print("1から9を入力してください。")
+            print("1から10を入力してください。")
 
 
     # =========================
@@ -375,7 +433,7 @@ elif game_mode == "view_progress":
 
     cleared_count = 0
 
-    for prefecture in kinki_prefectures:
+    for prefecture in regions["近畿地方"]:
         data = progress.get(prefecture, {})
 
         if data.get("cleared"):
@@ -385,7 +443,7 @@ elif game_mode == "view_progress":
         else:
             print(f"⬜ {prefecture}：未制覇")
 
-    print(f"\n近畿制覇：{cleared_count} / {len(kinki_prefectures)}")
+    print(f"\n近畿制覇：{cleared_count} / {len(regions['近畿地方'])}")
 
     exit()
 
