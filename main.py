@@ -21,6 +21,7 @@ kinki_prefectures = [
 # 問題データ
 # =========================
 from questions.hokkaido import hokkaido_questions
+from questions.aomori import aomori_questions
 from questions.nara import nara_questions
 from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
@@ -102,13 +103,14 @@ if game_mode == "prefecture":
     while True:
         print("\n都道府県を選んでください")
         print("1. 北海道")
-        print("2. 奈良県")
-        print("3. 大阪府")
-        print("4. 兵庫県")
-        print("5. 京都府")
-        print("6. 滋賀県")
-        print("7. 和歌山県")
-        print("8. 三重県")
+        print("2. 青森県")
+        print("3. 奈良県")
+        print("4. 大阪府")
+        print("5. 兵庫県")
+        print("6. 京都府")
+        print("7. 滋賀県")
+        print("8. 和歌山県")
+        print("9. 三重県")
 
         prefecture_choice = input("番号を入力してください: ")
 
@@ -117,35 +119,39 @@ if game_mode == "prefecture":
             questions = hokkaido_questions
             break
         elif prefecture_choice == "2":
+            selected_prefecture = "青森県"
+            questions = aomori_questions
+            break
+        elif prefecture_choice == "3":
             selected_prefecture = "奈良県"
             questions = nara_questions
             break
-        elif prefecture_choice == "3":
+        elif prefecture_choice == "4":
             selected_prefecture = "大阪府"
             questions = osaka_questions
             break
-        elif prefecture_choice == "4":
+        elif prefecture_choice == "5":
             selected_prefecture = "兵庫県"
             questions = hyogo_questions
             break
-        elif prefecture_choice == "5":
+        elif prefecture_choice == "6":
             selected_prefecture = "京都府"
             questions = kyoto_questions
             break
-        elif prefecture_choice == "6":
+        elif prefecture_choice == "7":
             selected_prefecture = "滋賀県"
             questions = shiga_questions
             break
-        elif prefecture_choice == "7":
+        elif prefecture_choice == "8":
             selected_prefecture = "和歌山県"
             questions = wakayama_questions
             break
-        elif prefecture_choice == "8":
+        elif prefecture_choice == "9":
             selected_prefecture = "三重県"
             questions = mie_questions
             break
         else:
-            print("1から8を入力してください。")
+            print("1から9を入力してください。")
 
 
     # =========================
