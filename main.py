@@ -22,6 +22,7 @@ kinki_prefectures = [
 # =========================
 from questions.hokkaido import hokkaido_questions
 from questions.aomori import aomori_questions
+from questions.iwate import iwate_questions
 from questions.nara import nara_questions
 from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
@@ -104,13 +105,14 @@ if game_mode == "prefecture":
         print("\n都道府県を選んでください")
         print("1. 北海道")
         print("2. 青森県")
-        print("3. 奈良県")
-        print("4. 大阪府")
-        print("5. 兵庫県")
-        print("6. 京都府")
-        print("7. 滋賀県")
-        print("8. 和歌山県")
-        print("9. 三重県")
+        print("3. 岩手県")
+        print("4. 奈良県")
+        print("5. 大阪府")
+        print("6. 兵庫県")
+        print("7. 京都府")
+        print("8. 滋賀県")
+        print("9. 和歌山県")
+        print("10. 三重県")
 
         prefecture_choice = input("番号を入力してください: ")
 
@@ -123,26 +125,30 @@ if game_mode == "prefecture":
             questions = aomori_questions
             break
         elif prefecture_choice == "3":
+            selected_prefecture = "岩手県"
+            questions = iwate_questions
+            break
+        elif prefecture_choice == "4":
             selected_prefecture = "奈良県"
             questions = nara_questions
             break
-        elif prefecture_choice == "4":
+        elif prefecture_choice == "5":
             selected_prefecture = "大阪府"
             questions = osaka_questions
             break
-        elif prefecture_choice == "5":
+        elif prefecture_choice == "6":
             selected_prefecture = "兵庫県"
             questions = hyogo_questions
             break
-        elif prefecture_choice == "6":
+        elif prefecture_choice == "7":
             selected_prefecture = "京都府"
             questions = kyoto_questions
             break
-        elif prefecture_choice == "7":
+        elif prefecture_choice == "8":
             selected_prefecture = "滋賀県"
             questions = shiga_questions
             break
-        elif prefecture_choice == "8":
+        elif prefecture_choice == "9":
             selected_prefecture = "和歌山県"
             questions = wakayama_questions
             break
