@@ -81,6 +81,7 @@ regions = {
 from questions.hokkaido import hokkaido_questions
 from questions.aomori import aomori_questions
 from questions.iwate import iwate_questions
+from questions.miyagi import miyagi_questions
 from questions.nara import nara_questions
 from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
