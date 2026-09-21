@@ -92,9 +92,39 @@ from questions.kyoto import kyoto_questions
 from questions.shiga import shiga_questions
 from questions.wakayama import wakayama_questions
 from questions.mie import mie_questions
+
+# =========================
+# 都道府県ごとの問題データ
+# =========================
+prefecture_questions = {
+    "北海道": hokkaido_questions,
+    "青森県": aomori_questions,
+    "岩手県": iwate_questions,
+    "宮城県": miyagi_questions,
+    "秋田県": akita_questions,
+    "山形県": yamagata_questions,
+    "福島県": fukushima_questions,
+    "三重県": mie_questions,
+    "滋賀県": shiga_questions,
+    "京都府": kyoto_questions,
+    "大阪府": osaka_questions,
+    "兵庫県": hyogo_questions,
+    "奈良県": nara_questions,
+    "和歌山県": wakayama_questions,
+}
+
 # =========================
 # 地方ごとの問題データ
 # =========================
+tohoku_questions = (
+    aomori_questions
+    + iwate_questions
+    + miyagi_questions
+    + akita_questions
+    + yamagata_questions
+    + fukushima_questions
+)
+
 kinki_questions = (
     nara_questions
     + osaka_questions
@@ -158,68 +188,51 @@ while True:
 # =========================
 
 if game_mode == "prefecture":
+    print("\n地方を選択してください！")
 
-    # =========================
-    # 都道府県を選択
-    # =========================
+    region_list = list(regions.keys())
+
+    for i, region in enumerate(region_list, 1):
+        print(f"{i}. {region}")
 
     while True:
-        print("\n都道府県を選んでください")
-        print("1. 北海道")
-        print("2. 青森県")
-        print("3. 岩手県")
-        print("4. 奈良県")
-        print("5. 大阪府")
-        print("6. 兵庫県")
-        print("7. 京都府")
-        print("8. 滋賀県")
-        print("9. 和歌山県")
-        print("10. 三重県")
+        region_choice = input("地方を番号で選択してください: ")
 
-        prefecture_choice = input("番号を入力してください: ")
+        if region_choice.isdigit():
+            region_number = int(region_choice)
 
-        if prefecture_choice == "1":
-            selected_prefecture = "北海道"
-            questions = hokkaido_questions
-            break
-        elif prefecture_choice == "2":
-            selected_prefecture = "青森県"
-            questions = aomori_questions
-            break
-        elif prefecture_choice == "3":
-            selected_prefecture = "岩手県"
-            questions = iwate_questions
-            break
-        elif prefecture_choice == "4":
-            selected_prefecture = "奈良県"
-            questions = nara_questions
-            break
-        elif prefecture_choice == "5":
-            selected_prefecture = "大阪府"
-            questions = osaka_questions
-            break
-        elif prefecture_choice == "6":
-            selected_prefecture = "兵庫県"
-            questions = hyogo_questions
-            break
-        elif prefecture_choice == "7":
-            selected_prefecture = "京都府"
-            questions = kyoto_questions
-            break
-        elif prefecture_choice == "8":
-            selected_prefecture = "滋賀県"
-            questions = shiga_questions
-            break
-        elif prefecture_choice == "9":
-            selected_prefecture = "和歌山県"
-            questions = wakayama_questions
-            break
-        elif prefecture_choice == "10":
-            selected_prefecture = "三重県"
-            questions = mie_questions
-            break
-        else:
-            print("1から10を入力してください。")
+            if 1 <= region_number <= len(region_list):
+                selected_region = region_list[region_number - 1]
+                break
+
+        print(f"1から{len(region_list)}の番号を入力してください。")
+
+    print(f"\n{selected_region}を選択しました！")
+    print(f"\n{selected_region}の都道府県を選択してください！")
+
+    prefecture_list = regions[selected_region]
+
+    for i, prefecture in enumerate(prefecture_list, 1):
+        print(f"{i}. {prefecture}")
+
+    while True:
+        prefecture_choice = input("都道府県を番号で選択してください: ")
+
+        if prefecture_choice.isdigit():
+            prefecture_number = int(prefecture_choice)
+
+            if 1 <= prefecture_number <= len(prefecture_list):
+                selected_prefecture = prefecture_list[prefecture_number - 1]
+                break
+
+        print(f"1から{len(prefecture_list)}の番号を入力してください。")
+
+    print(f"\n{selected_prefecture}を選択しました！")
+    if selected_prefecture in prefecture_questions:
+        questions = prefecture_questions[selected_prefecture]
+    else:
+        print("この都道府県の問題はまだ準備中です！")
+        exit()
 
 
     # =========================
@@ -365,30 +378,36 @@ elif game_mode == "region":
         region_choice = input("番号を入力してください: ")
 
         if region_choice == "1":
-            print("北海道地方は現在開発中です！")
+           selected_region = "北海道地方"
+           break
 
         elif region_choice == "2":
-            print("東北地方は現在開発中です！")
+            selected_region = "東北地方"
+            break
 
         elif region_choice == "3":
-            print("関東地方は現在開発中です！")
+            selected_region = "関東地方"
+            break
 
         elif region_choice == "4":
-            print("中部地方は現在開発中です！")
+            selected_region = "中部地方"
+            break
 
         elif region_choice == "5":
             selected_region = "近畿地方"
-            questions = kinki_questions
             break
 
         elif region_choice == "6":
-            print("中国地方は現在開発中です！")
+            selected_region = "中国地方"
+            break
 
         elif region_choice == "7":
-            print("四国地方は現在開発中です！")
+            selected_region = "四国地方"
+            break
 
         elif region_choice == "8":
-            print("九州・沖縄地方は現在開発中です！")
+            selected_region = "九州・沖縄地方"
+            break
 
         else:
             print("1から8の番号を入力してください。")
@@ -398,28 +417,31 @@ elif game_mode == "region":
     # =========================
 
     quiz_count = 30
-
     selected_questions = []
 
-    # 各府県から最低2問ずつ出題
-    selected_questions += random.sample(nara_questions, 2)
-    selected_questions += random.sample(osaka_questions, 2)
-    selected_questions += random.sample(hyogo_questions, 2)
-    selected_questions += random.sample(kyoto_questions, 2)
-    selected_questions += random.sample(shiga_questions, 2)
-    selected_questions += random.sample(wakayama_questions, 2)
-    selected_questions += random.sample(mie_questions, 2)
+    # 選択した地方の都道府県を取得
+    region_prefectures = regions[selected_region]
+
+    # 選択した地方の全問題を入れるリスト
+    region_questions = []
+
+    # 各都道府県から最低2問ずつ選ぶ
+    for prefecture in region_prefectures:
+        questions = prefecture_questions[prefecture]
+
+        selected_questions += random.sample(questions, 2)
+        region_questions += questions
 
     # 残りの問題数を計算
     remaining_count = quiz_count - len(selected_questions)
 
     # すでに選ばれた問題を除外
     remaining_questions = [
-        question for question in kinki_questions
+        question for question in region_questions
         if question not in selected_questions
 ]
 
-    # 残りを近畿全体からランダムに選択
+    # 残りを地方全体からランダムに選択
     selected_questions += random.sample(
         remaining_questions,
         remaining_count
@@ -435,19 +457,44 @@ elif game_mode == "japan":
 elif game_mode == "view_progress":
     print("\n===== 🗾 制覇状況 =====")
 
-    cleared_count = 0
+    total_cleared = 0
+    total_available = 0
 
-    for prefecture in regions["近畿地方"]:
-        data = progress.get(prefecture, {})
+    for region, prefectures in regions.items():
 
-        if data.get("cleared"):
-            best_score = data.get("best_score", 0)
-            print(f"✅ {prefecture}：制覇　BEST {best_score:.0f}%")
-            cleared_count += 1
-        else:
-            print(f"⬜ {prefecture}：未制覇")
+        # 問題が完成している都道府県だけ取り出す
+        available_prefectures = [
+            prefecture for prefecture in prefectures
+            if prefecture in prefecture_questions
+        ]
 
-    print(f"\n近畿制覇：{cleared_count} / {len(regions['近畿地方'])}")
+        # まだ問題が1県もない地方は表示しない
+        if len(available_prefectures) == 0:
+            continue
+
+        print(f"\n【{region}】")
+
+        region_cleared = 0
+
+        for prefecture in available_prefectures:
+            data = progress.get(prefecture, {})
+
+            if data.get("cleared"):
+                best_score = data.get("best_score", 0)
+                print(f"✅ {prefecture}：制覇　BEST {best_score:.0f}%")
+                region_cleared += 1
+            else:
+                print(f"⬜ {prefecture}：未制覇")
+
+        print(
+            f"{region}制覇："
+            f"{region_cleared} / {len(available_prefectures)}"
+        )
+
+        total_cleared += region_cleared
+        total_available += len(available_prefectures)
+
+    print(f"\n🗾 全国制覇：{total_cleared} / {total_available}")
 
     exit()
 
