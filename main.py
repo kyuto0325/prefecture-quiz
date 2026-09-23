@@ -85,6 +85,10 @@ from questions.miyagi import miyagi_questions
 from questions.akita import akita_questions
 from questions.yamagata import yamagata_questions
 from questions.fukushima import fukushima_questions
+from questions.ibaraki import ibaraki_questions
+from questions.tochigi import tochigi_questions
+from questions.gunma import gunma_questions
+from questions.saitama import saitama_questions
 from questions.nara import nara_questions
 from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
@@ -104,6 +108,10 @@ prefecture_questions = {
     "秋田県": akita_questions,
     "山形県": yamagata_questions,
     "福島県": fukushima_questions,
+    "茨城県": ibaraki_questions,
+    "栃木県": tochigi_questions,
+    "群馬県": gunma_questions,
+    "埼玉県": saitama_questions,
     "三重県": mie_questions,
     "滋賀県": shiga_questions,
     "京都府": kyoto_questions,
