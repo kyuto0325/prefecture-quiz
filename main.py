@@ -89,6 +89,9 @@ from questions.ibaraki import ibaraki_questions
 from questions.tochigi import tochigi_questions
 from questions.gunma import gunma_questions
 from questions.saitama import saitama_questions
+from questions.chiba import chiba_questions
+from questions.tokyo import tokyo_questions
+from questions.kanagawa import kanagawa_questions
 from questions.nara import nara_questions
 from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
@@ -112,6 +115,9 @@ prefecture_questions = {
     "栃木県": tochigi_questions,
     "群馬県": gunma_questions,
     "埼玉県": saitama_questions,
+    "千葉県": chiba_questions,
+    "東京都": tokyo_questions,
+    "神奈川県": kanagawa_questions,
     "三重県": mie_questions,
     "滋賀県": shiga_questions,
     "京都府": kyoto_questions,
