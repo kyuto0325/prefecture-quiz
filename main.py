@@ -92,6 +92,10 @@ from questions.saitama import saitama_questions
 from questions.chiba import chiba_questions
 from questions.tokyo import tokyo_questions
 from questions.kanagawa import kanagawa_questions
+from questions.niigata import niigata_questions
+from questions.toyama import toyama_questions
+from questions.ishikawa import ishikawa_questions
+from questions.fukui import fukui_questions
 from questions.nara import nara_questions
 from questions.osaka import osaka_questions
 from questions.hyogo import hyogo_questions
@@ -118,6 +122,10 @@ prefecture_questions = {
     "千葉県": chiba_questions,
     "東京都": tokyo_questions,
     "神奈川県": kanagawa_questions,
+    "新潟県": niigata_questions,
+    "富山県": toyama_questions,
+    "石川県": ishikawa_questions,
+    "福井県": fukui_questions,
     "三重県": mie_questions,
     "滋賀県": shiga_questions,
     "京都府": kyoto_questions,
